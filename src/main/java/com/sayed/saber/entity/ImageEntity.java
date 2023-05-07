@@ -23,7 +23,7 @@ public class ImageEntity {
 
     @Column(name = "image_name")
     private String imageName;
-
+    String name;
     public ImageEntity(ImageDto dto) {
 
         this.description = dto.getDescription();

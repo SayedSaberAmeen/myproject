@@ -28,6 +28,10 @@ public class ImageController {
      return ResponseEntity.ok().body(service.saveUser(new ImageDto(description,category) ,multipartFile));
     }
 
-
-
+    public ResponseEntity<String> saveUser(){
+return null ;
 }
+    }
+
+
+
